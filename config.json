@@ -9,7 +9,8 @@
                     scriptUrl: "./check.js",
                     requiredCapabilities: {
                         run: true
-                    }
+                    },
+                    sandbox: "check"
                 }
             },
             handlers: {
