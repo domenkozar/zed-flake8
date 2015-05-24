@@ -1,0 +1,9 @@
+{
+    "name": "Python Flake8 integration",
+    "uri": "gh:domenkozar/zed-flake8",
+    "version": "1.0",
+    "description": "Adds inline Flake8 annotations to Python mode",
+    "files": [
+        "check.js"
+    ]
+}

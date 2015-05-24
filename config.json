@@ -1,0 +1,20 @@
+{
+    modes: {
+        python: {
+            commands: {
+                "Tools:Python:Flake8": {
+                    inputs: {
+                        text: true
+                    },
+                    scriptUrl: "./check.js",
+                    requiredCapabilities: {
+                        run: true
+                    }
+                }
+            },
+            handlers: {
+                check: ["Tools:Python:Flake8"]
+            }
+        }
+    }
+}
