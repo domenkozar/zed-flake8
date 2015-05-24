@@ -2,7 +2,7 @@
     modes: {
         python: {
             commands: {
-                "Tools:Python:Flake8": {
+                "Tools:External:Flake8": {
                     inputs: {
                         text: true
                     },
@@ -13,7 +13,7 @@
                 }
             },
             handlers: {
-                check: ["Tools:Python:Flake8"]
+                check: ["Tools:External:Flake8"]
             }
         }
     }
