@@ -15,7 +15,7 @@ module.exports = function(info) {
 
             if (m.length === 4) {
                 annos.push({
-                    row: m[1],
+                    row: m[1] - 1,
                     text: '[Flake8] ' + m[3].trim(),
                     type: 'warning'
                 });
